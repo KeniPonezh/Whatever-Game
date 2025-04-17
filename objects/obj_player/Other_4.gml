@@ -1,0 +1,1 @@
+keys_amount = instance_number(obj_key)

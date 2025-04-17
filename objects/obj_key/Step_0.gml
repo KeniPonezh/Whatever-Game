@@ -14,5 +14,6 @@ if (place_meeting(x,y,obj_player)){
         rgb=make_color_rgb(random_range(0,1000) mod 255,random_range(0,1000) mod 255,random_range(0,1000) mod 255);
     };
     audio_play_sound(sfx_collect,0,false)
+    obj_player.keys_collected+=1;
     instance_destroy();
 }
