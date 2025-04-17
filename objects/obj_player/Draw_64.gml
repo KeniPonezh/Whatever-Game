@@ -1,0 +1,1 @@
+draw_text(title_card_x,450,"Level : " + title_card_name)
