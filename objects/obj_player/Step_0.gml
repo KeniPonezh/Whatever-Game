@@ -37,7 +37,7 @@ cam_x = lerp(cam_x,x,0.2);
 cam_y = lerp(cam_y,y,0.2) ;
 
 var cam_true_x, cam_true_y
-cam_true_x = floor(clamp(cam_x - (854 / 2),0,room_width - 854));
-cam_true_y = floor(clamp(cam_y - (480 / 2),0,room_height - 480));
+cam_true_x = floor(clamp(cam_x - (SCREEN_WIDTH / 2),0,room_width - SCREEN_WIDTH));
+cam_true_y = floor(clamp(cam_y - (SCREEN_HEIGHT / 2),0,room_height - SCREEN_HEIGHT));
 
 camera_set_view_pos(view_camera[view_current],cam_true_x,cam_true_y);

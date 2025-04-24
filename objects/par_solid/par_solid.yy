@@ -6,8 +6,8 @@
   "name":"par_solid",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Solid",
+    "path":"folders/Objects/Solid.yy",
   },
   "parentObjectId":null,
   "persistent":false,
